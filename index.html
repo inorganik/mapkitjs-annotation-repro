@@ -5,6 +5,15 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
+
+    <script
+      src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.core.js"
+      crossorigin="anonymous"
+      async
+      data-callback="initMapKit"
+      data-libraries="map,annotations,overlays,user-location"
+      data-initial-token=""
+    ></script>
   </head>
   <body>
     <div id="map" style="width: 100%; height: 100vh; background: gray"></div>
